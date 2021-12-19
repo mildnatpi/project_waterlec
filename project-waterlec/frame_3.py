@@ -7,7 +7,7 @@ import frame_6
 import frame_7
 
 
-LARGE_FONT = ("Verdana", 10)
+LARGE_FONT = ("Roboto Medium", 12)
 
 class Frame_3(tk.Frame):
 
@@ -25,7 +25,7 @@ class Frame_3(tk.Frame):
                          command=lambda: parent.show_frame(frame_6.Frame_6))
         btn1.pack(padx = 30, pady = 21)
 
-        btn1 = tk.Button(self, text='Back', fg="black", relief=GROOVE, width=3, height=1, font = LARGE_FONT,
+        btn1 = tk.Button(self, text='Back', fg="black", relief=GROOVE, width=4, height=1, font = LARGE_FONT,
                          command=lambda: parent.show_frame(frame_2.Frame_2))
         btn1.pack(padx = 30, pady = 25)
 
@@ -47,6 +47,6 @@ class Frame_3_water(tk.Frame):
                          command=lambda: parent.show_frame(frame_6.Frame_6_water))
         btn1.pack(padx = 30, pady = 21)
 
-        btn1 = tk.Button(self, text='Back', fg="black", relief=GROOVE, width=3, height=1, font = LARGE_FONT,
+        btn1 = tk.Button(self, text='Back', fg="black", relief=GROOVE, width=4, height=1, font = LARGE_FONT,
                          command=lambda: parent.show_frame(frame_2.Frame_2))
         btn1.pack(padx = 30, pady = 25)

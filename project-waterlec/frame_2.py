@@ -1,7 +1,7 @@
 import tkinter as tk
 import frame_3
 
-LARGE_FONT = ("Verdana", 16)
+LARGE_FONT = ("Roboto Medium", 16)
 
 class Frame_2(tk.Frame):
 
